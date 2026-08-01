@@ -1,0 +1,99 @@
+O que é controle de versionamento?
+    É uma técnica que nos permite salvar os diferentes estágios do código, o que torna fácil alternar entre as versões.
+
+E onde o git entra?
+    É uma ferramenta para trabalhar com controle de versão.
+
+O que é o git
+    É o sistema de controle de versão mais utilizado no mundo atualmente
+        Desempenho -> Segurança -> Código aberto
+
+git é a mesma coisa que github?
+    Não, github e similares como gitlab e bitbucket, são provedores que usam o git, fornecendo uma interface visual, 
+além de armazenamento na nuvem para os projetos
+
+Como trabalhar com git?
+    Antes de começar a trabalhar com o git é importante conhecer algumas coisas:
+    
+    Repositórios / Repo ou Repository
+    Adicionar arquivos
+    Commit 
+    Push / pull
+    Branch
+
+O que é um repositório?
+    É onde o código será armazenado, normalmente um repositório está associado a um projeto 
+
+O que é um Branch?
+    Os repositórios utilizam Branch (ramificações) para criar "ramos" de desenvolvimento
+
+Criar uma branch: git branch <nome da branch>
+Ver as branches criadas: git branch
+Trocar de branch: git checkout <branch>
+Remover uma branch: git branch -d <nome da branch>
+Trocar de branch e criar uma nova: git checkout -d <nome da branch criada>
+Mesclar: git merge
+
+Readme -  me leia (arquivo com informações sobre o projeto) 
+
+-------------------------------------------------------------------------------------------------------------------------------
+Comandos Básicos para terminal
+Arquivo em vermelho --> não estão sendo controlados em versão 
+cd (Change Directory) -> Muda o local do diretório atual, para isso utilize cd <caminho>
+cd .. - volta um diretório
+ls (List) -> Lista o que está dentro do diretório ]
+ls-al (Lista de arquivos ocultos)
+git init - iniciar o git dentro da pasta desejada
+git status - Status do repositorio git
+Branch master - Ramificação principal (versão principal da aplicação)
+git add - adicionar o arquivo selecionado <file> no repositorio
+git add . - adicionar todos os arquivos da pasta no repositorio
+git commit -m '' - comando para salvar as alterações, confirmar alterações.(-m como se fosse deixar um comentário 'aqui fica o comentario')
+git clone <projeto_git> - comando para clonar um projeto que já existe no git hub // se utilizar a copia do projeto com espaço e ponto, só trás apenas o conteudo sem o diretorio
+caso contrario tra tudo 
+git push (empurra) - para subir as alterações do meu computador para o github
+git pull (puxa) - trazer as alterações do github para o meu computador
+git branch <nome da branch> - para criar uma branch
+git branch - verficaras branches criadas
+git checkout <nome da branch> - trocar de branch
+git branch -d <nome da branch> - para trocar e criar uma branch
+git merge - Mesclar as branches : para usar corretamente vá na branch principal e ai voce trás os recurcos da  branch que voce ta usando
+
+
+
+
+
+
+
+
+
+
+
+sequencia para adicionar arquivos no git 
+    - tem que estar na pasta do diretório (a mesma que está no github)
+    - pra verificar os arquivos da pasta -- ls
+    - pra verficar como esta o status (se tem arquivo sem salvar no github, se ainda não foi 'empurrado)
+    - o arquivo que não estiver salvo estara na cor vermelha
+    - se falta adicionar o arquivo -- git add <arquivo>
+    - após a ele ficará verde (ficará vermelho tambem se for modificado e não for add novamente)
+    - pra commitar -- git commit -m 'aqui voce coloca o comentário do que foi feito'
+    - pra empurrar pra dentro do github -- git push (para adicionar varios arquivos, espaço . ou apenas um arquvio git push <nome do arquivo>)
+    - caso queira baixar algum arquivo mais atualizado de dentro do repositorio github -- git pull
+    - caso queira clonar algo segue git clone <projeto_git> - comando para clonar um projeto que já existe no git hub // se utilizar a copia do projeto com espaço e ponto, só trás apenas o conteudo sem o diretorio
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+Configurando Chave SSH
+    O Secure Shell Protocol (SSH) é um protocolo de ree criptográfica para operar serviços de rede com segurança em uma rede não segura 
+    passo a passo no proprio git 
+-----------------------------------------------------------------------------------------------------------------------------------    
+sincronização de arquivo com o github
+    1 - iniciar o repositorio na maquina - git init 
+        2- adicionar o arquivo criado - git add <arquivo> ou . para todos arquivos
+            3 - confirma alterações - git commit -m "descrição da alteração"
+                4 - cria branch - git branch -M main 
+

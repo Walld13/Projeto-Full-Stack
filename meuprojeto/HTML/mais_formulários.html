@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre Formulários</title>
+</head>
+<body>
+    <h1>Mais sobre Formulários</h1>
+
+    <h2>Label</h2>
+
+    <form action="processa.html" method="get">
+        <!--
+        Label = Legenda para item da interface
+        For = Para
+        -->
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="email"> 
+        Email <input type="text" name="email" id="email"> 
+        </label> <br>
+
+        <h2>Mais elementos de fomulários</h2>
+
+        Gênero <br>
+        <label for="Fem">
+        <input type="radio" name="genero" value="Feminino" id="Fem"> Feminino
+        </label>
+        <label for="Mas">
+        <input type="radio" name="genero" value="Masculino" id="Mas"> Masculino
+        </label>
+        <br>
+        Preferência <br>
+        <label for="web">
+        <input type="radio" name="opção" value="web" id="web"> web
+        </label>
+        <label for="apps">
+        <input type="radio" name="opção" value="Apps" id="apps"> apps
+        </label>
+
+        <br><br>
+
+        Estilo Musical <br>
+        <label for="rock">
+        <input type="checkbox" name="estilo" value="rock" id="rock"> Rock
+        </label>
+        <label for="pop">
+        <input type="checkbox" name="estilo" value="pop" id="pop"> Pop
+        </label><label for="ser">
+        <input type="checkbox" name="estilo" value="rock" id="ser"> Sertanejo
+        </label>
+
+        <br><br>
+
+        Estado:
+        <select name="estado">
+            <option value="">Selecione...</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="ce">Ceará</option>
+        </select>
+
+        <br><br>
+
+        Upload de arquivo:
+        <input type="file" name="arquivo">
+
+        <br><br>
+
+        <!--
+        Fieldset = Conjunto de campos
+        Legend = Legenda para conjunto de campos
+        -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+                <label for="nome2">
+                Nome <input type="text" name="nome" id="nome2">
+                </label>
+                <label for="email2"> 
+                Email <input type="text" name="email" id="email2">
+                </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mais dados</legend>
+             Gênero <br>
+            <label for="Femi">
+            <input type="radio" name="genero" value="Feminino" id="Femi"> Feminino
+            </label>
+            <label for="Masc">
+            <input type="radio" name="genero" value="Masculino" id="Masc"> Masculino
+            </label>
+            <br>
+            Preferência <br>
+            <label for="web1">
+            <input type="radio" name="opção" value="web" id="web1"> web
+            </label>
+            <label for="apps1">
+            <input type="radio" name="opção" value="Apps" id="apps1"> apps
+            </label>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="cadastrar">
+ <hr>
+
+    </form>
+
+</body>
+</html>

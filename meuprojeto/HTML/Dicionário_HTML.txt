@@ -1,0 +1,115 @@
+CABEÇALHO
+    
+<h1> Título de tamanho extra grande
+<h2> Título de tamanho grande
+<h3> Título de tamanho médio
+<h4> Título de tamanho pequeno
+<h5> Título de tamanho bem pequeno
+<h6> Título de tamanho muito pequeno
+Tittle - Título da Pagina Web
+Index = Página incial do projeto (Índice)
+P = Paragrafo <p></p>
+-------------------------------------------------------------------------------------------------------
+FORMATAÇÃO DE TEXTO
+
+<b>negrito</b><!--Formatação apenas --> Deixa o texto em negrito
+<strong>importante</strong><!--Marcar palavras chaves--> Reforça a intensidade de uma palvra forte
+<i>itálico</i><!--Usado para termos mais técnicos--> Deixa o texto em itálico
+<em>ênfase</em><!--Apenas para destacar o que voce quer diferenciar--> Deixa o texto em itálico
+<mark>marcado</mark><!--Marca o texto--> Marca o texto (como se fosse marca-texto)
+<u>sublinhado</u><!--Texto com um sublinado--> Deixa o texto sublinhado
+<del>apagado</del><!--Texto com marcação de apagado--> Deixa o texto taxado
+<sup>sobrescrito</sup><!--Testo escrito sobre a o outro texto--> ex: 10²
+<sub>subscrito</sub><!--Texto escrito abaixo do outro texto--> H2 0
+<br> Pular uma linha
+<hr> adicionar uma barra de separação 
+-------------------------------------------------------------------------------------------------------
+LISTAS
+
+ul - Unordered List (lista não ordenada) - Lista que não tem ordem (nem maior ou menor/alfabetica etc)
+ol - Ordered List (Lista ordenada) - EX: 1,2,3 ou a,b,c ....
+li - List Item (Item da lista) - Quando vo,u adicionar um item na lista
+    EX : <ul>
+            <li>Nome</li>
+         </ul>
+-------------------------------------------------------------------------------------------------------
+IMAGENS
+    
+Img - Image (imagem)
+src - Source (Fonte , origem) 
+   EX <img src="imagens/leao.gif" 
+width = Largura
+height="503" = Altura
+alt = Texto por trás da imagem / Caso a imagem não seja carregada
+Title = Texto frente a imagem/ Aparece quando passar o mouse por cima da imagem
+Figure = Mostrar uma imagem dentro do site/ Parte do site
+Figcaption = Legenda da imagem
+--------------------------------------------------------------------------------------------------------
+LINKS
+    
+a = anchor (âncora, apontar, ancorar...) -- Quando vou incluir um link dentro do meu site <a href....>Aqui fica o nome que vai parecer como link<a>
+href = Hyperlink Reference --Onde incluir o link que vai aparecer <a href"..." target"Blank..">
+target:_blank, _self (onde o link deve ser aberto)
+Blank = Abertura de link fora do seu site
+Self =  Abertura de link dentro do seu site
+Quando utilizar <a href"#.."> será para direcionar o link para dentro do site e ir até o ID</a>
+ID= Ele é o endereço onde eu posso colocar a referencia que o "#" vai procurar no site.
+----------------------------------------------------------------------------------------------------------
+TABELAS
+
+table = tabela <table></table>
+tr = table row (linha de tabela)    
+td = table data (dados da tabela) * table cell (células da tabela)
+th = table header (cabeçalho da tabela)
+Não utilizar o border, apenas para fins de estudo (utilizar sempre o CSS)
+Caption = Legenda / título da tabela (Exibido em cima da tabela)
+Theader = Table Header (cabeçalho da tabela)  
+tbody = table body (corpo da tabela)
+tfoot = table footer (rodapé da tabela)
+Cosplan = alargar a coluna da tabela <td cosplan"2">...</td> (ou seja, será feita a junção de 2 células)
+----------------------------------------------------------------------------------------------------------------
+FORMULÁRIOS
+
+Form = Formulário <form></form> - Para abertura de um formulário
+Input <input></input> = Entrada de dados (entrada de dados do usuário)
+Submit = Enviar (é criado um botão e envia para onde for definido na action)
+Button = botão (é criado um botão onde pode ser adicionado uma foto)
+Reset = Resetar entrada de dados (ação dentro do button para resetar os dados adicionados)
+    EX: <form action="processa.html" method="post"> 
+Action = Pra onde vão os dados (Tipo um outro site/enderço de pasta)
+POST= Método de envio de dados que não aparece na URL
+GET= quando quero mostrar dos dados pela URL
+Value = Valor defenifido pelo programador (Valor que fica dentro da caixa do texto)
+    EX: <button type"submit" value "Entrar">
+Label = Legenda para item da interface (Legenda do formulário)
+For = Para (Segue o mesmo conceito de #no href, faz refência a algo definido no ID, os dois tem que ser igual)
+Name = Atributo ou chave para guardar dados digitados pelo usuário
+
+TYPES--
+Text = Caixa de texto (usado para pequenos texto EX:Email, nome...)
+Password = não exibi caracter (dentro de text, usado para senhas)
+Placeholder = Texto de instrução dentro da caixa (text)
+radio = botão redondo de selecionar (Quando definido igual pelo "name", apenas um pode se selecionado)
+checkbox = botão de selção quadrado igual o de checklist (da pra selecionar mais que uma opção)
+select = botão de caixa suspensa (onde o usuário pode selecionar uma opção)
+option = são as opções que estão dentro da caixa suspensa EX: <select name="cidade" id="cidade">
+                                                                    <option value"">Escolha uma opção></option>
+                                                              </select>
+file = cria uma caixa onde eu posso subir upload de um arquivo
+Fieldset = Conjunto de campos (abre um quadrado onde ficam as informações)
+Legend = Legenda para conjunto de campos (legenda em cima do quadrado)
+-------------------------------------------------------------------------------------------------------
+CARACTERES ESPECIAIS &
+------------------------------------------------------------------------------------------------------
+VÍDEO
+source = Fonte do vídeo Ex: caminho da pasta ou URL
+controls = controles
+muted = mutado
+autoplay = Reprodução automática
+loop = ciclo
+poster = cartaz
+--------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+
+

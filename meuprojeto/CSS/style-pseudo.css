@@ -1,0 +1,72 @@
+/*Pseudo Classes */
+a{
+    text-decoration: none;
+    color: green;
+    padding: 0.5em 1em;
+}
+
+/*links não visitados
+a:link{
+    color: black;
+}
+*/
+
+/*Links hover, passo o cursor sobre o link
+a:hover{
+    background-color: green;
+    color: white;
+*/ 
+
+/*Links visitados
+a:visited{ 
+    color: red;
+}
+*/
+
+/*Links ativos
+a:active{
+    background-color: purple;
+}
+*/
+
+
+input:checked{  /*Aplica uma formatação quando o check box é preenchido*/
+    margin-left: 20px; 
+}
+
+input:focus{  /*Aplica uma formatação dentro da caixa de texto*/
+    background-color: purple;
+    color: white;
+}
+
+input:required{
+    border: 2px solid red;
+}
+
+/*Pseudo Elementos*/
+
+p::first-line{ /*Formata apenas a primeira linha do paragrafo*/
+    color: red;
+}
+
+p::first-letter{ /*Formata apenas a primeira Letra da linha do paragrafo*/
+    font-size: 3em;
+    color: purple;
+}
+
+h2::first-letter{  /*Formata apenas a primeira Letra da linha do paragrafo*/
+    font-size: 3em;
+    color: purple;
+}
+
+p::selection{
+    background-color: yellow; /*Aplica a formatação como se fosse marca texto*/
+}
+
+h2::before{
+    content: "{";
+}
+
+h2::after{
+    content: "}";
+}

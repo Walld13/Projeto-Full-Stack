@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        caption{
+            background-color: black;
+            color: white ;
+        }
+        thead {
+            background-color:darkorange;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Mais sobre tabelas</h1>
+<!--
+Caption = Legenda / título da tabela
+Theader = Table Header (cabeçalho da tabela) 
+tbody = table body (corpo da tabela)
+tfoot = table footer (rodapé da tabela)
+Cosplan = alargar a coluna da tabela
+-->
+<table border="1">
+    <caption>Listagem de produtos</caption>
+
+    <thead> <!--Cabeçalho-->
+        <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+        </tr>
+    </thead> 
+    <tbody><!--Corpo da tabela-->
+        <tr>
+            <td>Notebook</td>
+            <td>1</td>
+            <td>R$ 2000</td>
+        </tr>
+         <tr>
+            <td>Tablet</td>
+            <td>2</td>
+            <td>R$ 1000</td>
+        </tr>
+         <tr>
+            <td>Celular</td>
+            <td>1</td>
+            <td>R$ 500</td>
+        </tr>
+    </tbody> <!--Rodapé da tabela -->
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$ 4000</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#topo{
+    background: yellow;
+}
+
+.cel{
+    background: lightgrey;
+}
+
+.not{
+    background: orange;
+}
+
+#rodape{
+    border: 3px solid grey;
+}

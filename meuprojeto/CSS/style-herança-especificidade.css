@@ -1,0 +1,60 @@
+/* Herança - Aplica uma formatação no elemento pai, e os demais elementos dentro 
+recebem a mesma formatação */
+
+
+/*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    border: 1px solid red;
+    padding: 3em;
+    margin: 2em;
+}
+h1 {
+    color: violet;
+    border: inherit;
+
+}
+
+p{
+    border: 1px solid red;
+
+}
+
+*/
+
+/* Especificidade
+É a maneira de como os navegadores definem quais valores de propriedades são os mais 
+relevantes para o elemento a ser utilizado. A Especificidade é baseada apenas nas regras 
+impostas na composição de diferentes tipos de seletores.
+
+calculadora: https://specificity.keegan.st/
+
+Ordem de aplicação das formatações:
+1. Regra com !important
+2. Seletores mais específicos
+3. Última regra processada 
+
+
+
+p{
+    color: blueviolet !important;
+}
+
+p{
+    color: red;
+}
+
+*/
+
+/* Seletores mais específicos
+1) Estilo em linha (inline style) - na propria linha do elemento
+2) ID's 
+3) Classes, atributos e pseudo-classes
+4) Elementos e pseudo-elementos 
+*/ 
+
+p[class]{ /* Seletor de atributo (seletor[] {}) */
+    border: 1px solid red;
+}

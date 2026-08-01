@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+
+    <!--
+    repeat = é repetida horizontal e vertical
+    repeat-x = é repetida na horizontal
+    repeat y = é repetida na vertical 
+    no-repeat = imagem é exibida apenas uma vez        
+    -->
+<style>
+.caixa{
+width: 700px;
+height: 300px;
+border: 3px dotted red;
+
+/*
+background-color: lightgreen;
+background-image: url(../imagens/imagens-necessarias/fundo-css-escuro.png);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: right center;
+
+
+background: lightgreen 
+url(../imagens/imagens-necessarias/fundo-css-escuro.png)
+no-repeat 
+fixed
+left top;
+}
+*/
+
+background: url(../imagens/imagens-necessarias/fundo-css-escuro.png) no-repeat left bottom,
+            url(../imagens/imagens-necessarias/fundo-css-claro.png) no-repeat right center;
+            
+
+
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<div class="caixa">
+<h1>Título do texto</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Aut mollitia recusandae eum enim odit, nisi blanditiis omnis, 
+    voluptates corporis inventore cupiditate aspernatur. 
+    Laboriosam ea nemo error sed facere ut ad?
+</p>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+h1{
+    border: 3px solid darkorange;
+    margin: 20px;
+    padding: 20px;
+    background: orange;
+    color: white;
+}
+
+p{
+    border: 5px solid grey;
+    margin: 20px;
+    padding: 10px;
+    background: rgb(220, 221, 221);
+    color: black;
+}

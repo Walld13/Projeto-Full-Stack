@@ -1,0 +1,190 @@
+CAIXAS
+    Largura e altura
+    Bordas (cor,espessura estilo)
+    Cores e imagem de fundo
+    Posição na janela do navegador
+---------------------------------------------------------------------------------------------------------------------
+TEXTO
+    Fonte
+    Tamanho
+    Cor 
+    Itálico, negrito, Maiúscula.
+------------------------------------------------------------------------------------------------------------------
+SELETORES CSS
+    seletror = p{
+     Delaração = color:(Prpriedade) red;(Valor)
+                }
+Seletor - Indicam o elemento ao qual a regra se aplica.
+Declaração - Indicam como os elementos indicados pelo seletor, sevem ser estilizados/formatados.
+PROPRIEDADES
+Propriedade - Indicam os aspectos do elemento que você deseja alterar
+Valor - Especificam as configurações que você quer usar para as propriedades escolhidas. 
+----------------------------------------------------------------
+Inline CSS (CSS na linha) - direto no elemento
+Internal CSS (CSS interna) - Interno dentro do mesmo arquvio de html
+External CSS (CSS External) - Externo aplicado na primeira página que vale para todas
+--------------------------------------------------------------------------
+color = Altera a cor do texto 
+background-color = Cor pintada dentro da caixa (cor de fundo)
+background-img = preenche o fundo de imagens 
+border = borda , necessário indicar o tamanho em px
+Solid = borda solida, linha continua
+---------------------------------------------------------------------------------
+DIV e SPAN
+permite agrupar conjuntos de elementos no seu site
+
+DIV- Permite agrupar um conjunto de elementos em uma caixa de nível de bloco
+SPAN - Funciona como um equivalente em linha do elemento <div> é usado para conter uma seção de texto em que não há nenhum
+outro elemento adequado para diferencia-lo do texto adjacente.
+---------------------------------------------------------------------------------------
+Elementos em bloco - um abaixo do outro (div, h1,p, ul , li)
+Elementos em linha - um na frente do outro (span, img, a, em, strong )
+-------------------------------------------------------------------------------------------------------------
+Entendendo as Cores
+Cada cor em uma tela de computador é criada misturando quantidades de vermelho, verde e azul
+Maneiras de representar as cores:
+    -Nomes das Cores
+    -Valores RGB
+    -Códigos Hexadecimais
+-----------------------------------------------------------------------------------------------------------
+Fontes Serifa - Fontes com serifa têm detalhes adicionais na extremidade dos traços principais das letras.
+Exemplo: Jornal (Georgia, Times, Times New Roman)
+Fontes sem Serifa - Fonte sem serifa contêm extremidades retas, tendo um design mais limpo. (Arial, Verdana, Helvetica)
+Monoespaçada - Cada letra em fonte monoespaçada tem a mesma largura, fontes não mono espaçadas tem larguras
+diferentes. (Courier, Courier New)
+Cursiva - Fontes tem traços de junção ou outras características cursivas, como estilo manuscritos.(Comic Sans MS, Monotype Corsiva)
+Fantasia - Fontes fantasia cosrtumam ser fontes decorativas e são muito usadas para títulos. não são projetadas para textos longos
+(Impact, Haettenschweiler)
+font-size = Tamanho da fonte 
+
+font-family - Define o tipo de fonte que sera usada para o texto.
+
+    h1{
+        font-family: arial, verdana, sans-serif;
+    }
+------------------------------------------------------------------------------------------------------------
+Modelo de caixa (Box model) - A CSS trata elementos HTML como se estivessem dentro de uma caixa própria
+Border (Borda) - A borda conorna e delimita a caixa (borda em volta da caixa)
+Padding (preenchimento) - é o espaçamento entre a borda de uma caixa e qualquer conteúdo dentro dela(margem do texto interno da caixa)
+Margin (margem) - Contornam e delimitam as extremidades, criando espaços entre elementos (margem de caderno de desenho)
+-----------------------------------------------------------------------------------------------------------
+3 Valores para borda
+    - Espessura: border-width
+    - Cor: border-color
+    - Estilo da borda: border-style
+---------------------------------------------------------------------------------------------------------------
+border-width: 4px; (Largura da borda em 4px)
+border-color: purple; (Cor da borda)
+border-style: solid; (Estilo da borda)
+border: 4px solid purple; (Tudo junto e definido para os 4 lados, seguem o sentido horário)
+border-width: 10px 8px 6px 20px; (Largura da borda em cada lado(Right=esquerda, left=esquerda, top=superior e bottom=inferior))
+border-color: purple red green black;(Cor da borda)
+border-style: dotted solid dashed double; (Estilo definido para cada lado)
+border-width: 10px 8px; (largura definida na esquerda/direita e inferior/superior)
+border-color: purple red; (Cor definida na esquerda/direita e inferior/superior)
+border-style: solid dotted; (Estilo definido na esquerda/direita e inferiorsuperior)
+border-left-width: 10px; (Definida a largura da borda esquerda)
+border-left-color: purple; (Definida a cor da borda esquerda)
+border-left-style: solid; (Definido o stilo da borda esquerda)
+border: 4px solid red; (Todas os lados definidos)
+border-top: 4px solid red; (Definia a borda superior)
+border-right: 4px solid purple; (Definida a borda direita)
+border-bottom: 4px solid black; (Definida a borda inferior)
+border-left: 4px solid green; (Definida a borda esquerda)
+border: 2px solid red;
+border-radius: 10px; (Definido o raio da borda, arredondamento do canto)
+border: 2px solid red;
+border-top-left-radius: 10px; (Definido o raio da borda superior do lado esquerdo)
+border-top-right-radius: 10px; (Definido o raio da borda superior do lado direito)
+border-bottom-left-radius: 10px; (Definido o raio da borda inferior do lado esquerdo)
+border-bottom-right-radius: 10px; (Definido o raio da borda inferior do lado direito)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+padding: 40px; (preenchimento interno da caixa)
+padding-top: 40px (preenchimento superior, distancia entre o objeto e a parte superior)
+padding-right: 40px; (preenchimento direito, distancia entre o objeto e a parte direito)
+padding-bottom: 40px; (preenchimento inferior, distancia entre o objeto e a parte inferior)
+padding-left: 40px; (preenchimento esquerdo, distancia entre o objeto e a parte esquerdo)
+padding: 10px 10px 10px 10px;
+padding: 10px 90px;
+margin-top: 40px; (Margem, distancia entre o "texto" e a parte dos cantos, igual margem de caderno)
+margin-right: 40px;
+margin-bottom: 40px;
+margin-left:  40px;
+margin: 90px 10px
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Classe e ID's
+Class = É utilizada para elementos que se repetem por muitas vezes
+id = É utiizado quando o elemento é unico na página
+---------------------------------------------------------------------------------------
+CSS - cascading style sheet
+Efeito cascata CSS - Por que ele faz a leitura do código em cascata de cima pra baixo da esquerda para a direita 
+-------------------------------------------------------------------------------------------------
+Herança - é quando a foramtação aplicada em um elemento pai de outros elementos carregue todo o style.
+--------------------------------------------------------------------------------------------------------
+Unidades de medida CSS
+Medidas Absolutas:
+    cm - Centimetro
+    mm - Milimetro
+    in - Polegada
+    px - Pixel 
+    pt - Ponto 
+    pc - Paica
+
+Pixel - Elemento de immagem, a menor unidade de uma imagem.
+
+Medidas relativas:
+    em - relativo ao tamanho da fonte do parente (pai) - Geralmente usado em Body, Div ...
+    rem - relativo ao tamanho da fonte do elemento raiz (Root EM) - Em relação ao HTML
+    % - relativo ao tamanho do elemento parente(pai) 100% é a largura do elemento (pai)
+    vw (Viewport Width) - Relativo a largura total da tela
+    vh - (Viewport Height) - Relativo a altura total da tela 
+---------------------------------------------------------------------------------------
+Fontes customizadas
+
+@font-face { (Comando para adicionar a fonte customizada)
+    font-family: bruxa; (Aqui eu posso determinar qualquer nome para a fonte, igual o ID)
+    src: url(../Fonts/halloween_4/halloween\ outline.ttf) (caminho onde a fonte está salva)
+    Aqui da pra carregar mais que uma URL pra tentar rodar novamente
+}
+---------------------------------------------------------------------------------------
+Estilos e Alinhamentos
+
+font-weight: 800; (bold (negrito), normal, 100 até 900 (quantidade de negrito aplicado))
+font-style: italic ; Normal, Italic, Oblique (Estilo do texto) */
+text-transform: ; uppercase (Letras maiusculas), lowercase(letras minusculas), capitalize(A primeira letra maiuscula)
+text-decoration: ; none(Sem linha), uderline(linha abaixo do texto), overline(linha acima do texto), line -through(linha sobre o texto igual taxado)
+line-height: 3em; (Altura da linha)
+letter-spacing: (Espaçamento entre letras)
+word-spacing (Espaçamento entre palavras)
+
+ALinhamento
+text-indent: (Aplica recuo no código) = Numeros negativos vai pra esquerda, numeros positivos vai pra direita
+ext-align: left, right, center e justify (Esquerda, Direita, Centro e Justificado)
+------------------------------------------------------------------------------------------
+Imagem - fundo
+background repeat
+    repeat = é repetida horizontal e vertical
+    repeat-x = é repetida na horizontal
+    repeat y = é repetida na vertical 
+    no-repeat = imagem é exibida apenas uma vez    
+
+background attachment
+    fixed = a imagem de fundo permanece na mesma posição da página
+    scrool = a imagem de fundo move-se com o conteúdo quando o usuário rola a página 
+
+background position  
+    Quando a imagem não é repetida, você pode posicionar a imagem horizontal: left, center, right 
+    vertical: top, center, bottom
+    *É necessário escolher dois valores, senãoo será utilizado center como segundo valor 
+    background position X = na horizontal
+    background position Y = na vertical
+
+background (todas as propriedades resumidas)
+    cor, imagem, repeat, attachment e position
+-----------------------------------------------------------------------------------------------
+Mais seletores 
+    * {} = Seletor universal
+    h1,p,h2{} = Seletor de texto
+----------------------------------------------------------------------------------------------
+Pseudo classe e Pseudo elementos 
+

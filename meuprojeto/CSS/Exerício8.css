@@ -1,0 +1,19 @@
+html, body{
+    margin: 0;
+}
+
+div{
+    background: dodgerblue;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+a{
+    border: 1px solid white;
+    color: blue;
+    background: lightblue;
+    margin: 10px;
+    padding:10px;
+    border-radius: 5px;
+}
