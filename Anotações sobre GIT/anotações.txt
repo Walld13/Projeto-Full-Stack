@@ -43,7 +43,7 @@ cd (Change Directory) -> Muda o local do diretório atual, para isso utilize cd 
 cd .. - volta um diretório
 ls (List) -> Lista o que está dentro do diretório ]
 ls-al (Lista de arquivos ocultos)
-git init - iniciar o git dentro da pasta desejada
+git init - iniciar o git dentro da pasta desejada (repositórios)
 git status - Status do repositorio git
 Branch master - Ramificação principal (versão principal da aplicação)
 git add - adicionar o arquivo selecionado <file> no repositorio
