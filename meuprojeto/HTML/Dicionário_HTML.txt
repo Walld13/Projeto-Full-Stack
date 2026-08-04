@@ -28,7 +28,7 @@ LISTAS
 
 ul - Unordered List (lista não ordenada) - Lista que não tem ordem (nem maior ou menor/alfabetica etc)
 ol - Ordered List (Lista ordenada) - EX: 1,2,3 ou a,b,c ....
-li - List Item (Item da lista) - Quando vo,u adicionar um item na lista
+li - List Item (Item da lista) - Quando vou adicionar um item na lista
     EX : <ul>
             <li>Nome</li>
          </ul>
