@@ -187,4 +187,58 @@ Mais seletores
     h1,p,h2{} = Seletor de texto
 ----------------------------------------------------------------------------------------------
 Pseudo classe e Pseudo elementos 
+    Pseudo-classe e pseudo-elemento são termos importantes no CSS que referem-se a seletores especiais que 
+    permitem aplicar estilos com base em estados ou partes específicas de um elemento.
 
+Pseudo-classe: São palavras-chave adicionadas a seletores que especificam um estado especial do elemento 
+selecionado, como :hover, :visited, :focus, entre outros. Exemplos incluem color: blue; para alterar a cor 
+de um elemento quando o mouse passa sobre ele. 
+
+Pseudo-elemento: São representados por :: e estilizam partes específicas de um elemento, como a primeira 
+letra de um parágrafo. Exemplos incluem ::first-letter para aplicar um estilo à primeira letra de um elemento de lista. 
+Ambos os conceitos são fundamentais para criar efeitos visuais dinâmicos e interativos em páginas web, 
+permitindo uma maior personalização e interatividade
+-----------------------------------------------------------------------------------
+Conceitos importantes para posicionamentos
+
+Fluxo normal (position: static)
+    - Cada elemento de nível de bloco aparece em uma nova linha, fazendo com que cada item apareça
+    um abaixo do outro, mesmo que você defina uma largura e tenha espaço para ficar um ao lado do outro, 
+    eles não ficarão, pois esse é o comportamento padrão (a menos que voce defina pra que seja feito 
+    diferente)
+
+Posicionamento relativo (position: relative)
+    - Move um elemento da posição que ele estaria no fluxo normal, deslocando para a parte superior, inferior
+    esquerda ou direita de onde ele seria posicionado. Isso não afeta a posição dos outros elementos, pois eles 
+    vão se comportar como se o elemento não tivesse sua posição mudada (parágrafo é deslocado para baixo e para 
+    a direita de onde estaria o fluxo normal)
+
+Posicionamento Absoluto (position: absolute)
+    - Posiciona o elemento em relação a seu elemento contêiner (que tem a posição definida), o elemento
+    é removido do fluxo normal, o que significa que ele não afeta a posição dos elementos próximos a ele
+    Elementos posicionados de forma absoluta, movem -se a medida que o usuário rola a página pra cima ou para 
+    baixo. (O título é posicionado na parte superior direita, e os parágrafos começam no topo da tela, como se 
+    o título não existisse lá)
+
+Posicionamento fixo (position: fixed)
+    - Essa é uma forma de posicionamento absoluto que posiciona um elemento em relação a janela do navegador,
+    em vez de usar o elemento contêiner. Elementos com posicionamento fixo, não afetam a posição dos elementos 
+    próximos e não se movem quando o usuário rola para cima ou para baixo da página (o título é posicionado 
+    centralizado na página, não acompanhando a rolagem da tela, ficando fixo)
+
+-------------------------------------------------------------------------------------------------------
+
+Deslocamento de caixa
+    - Para indicar onde uma caixa deve ser posicionado, voce também precisa usar a propriedade de Deslocamento
+    de caixa para informar ao navegador quanto voce quer movimentar essa caixa
+
+        -Left = Esquerda
+        -Right = Direita
+        -Top = superior
+        -Botton = inferior
+
+-----------------------------------------------------------------------------------------------------------------
+
+Elementos flutuantes
+    - Fazer um elemento flutuar, permite remover esse elemento do fluxo normal e posicioná-lo mais a direita 
+    ou esquerda de uma caixa contêiner
