@@ -242,3 +242,23 @@ Deslocamento de caixa
 Elementos flutuantes
     - Fazer um elemento flutuar, permite remover esse elemento do fluxo normal e posicioná-lo mais a direita 
     ou esquerda de uma caixa contêiner
+
+--------------------------------------------------------------------------------------------------------------------
+
+Definir max e min de largura e altura 
+            min-width: 400px; (Largura Mínima)
+            max-width: 600px; (Largura Máxima) 
+
+            min-width:200px;  (Altura Miníma)
+            max-height: 300px;(Altura Máxima)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+OVERFLOW = Sobrepor (Quando o conteúdo se sobrpõe)
+
+visible: Exibe o conteúdo de forma vazada, fora da caixa do conteúdo
+hidden: Esconde o conteúdo excedente
+scrool: Sempre exibe barras de rolagem
+auto: Adiciona scrool somente se necessário 
+
+overflow-x: ;/*definir qual o tipo na Horizontal*/
