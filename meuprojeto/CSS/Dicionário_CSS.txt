@@ -207,18 +207,20 @@ Fluxo normal (position: static)
     eles não ficarão, pois esse é o comportamento padrão (a menos que voce defina pra que seja feito 
     diferente)
 
-Posicionamento relativo (position: relative)
+Posicionamento relativo (position: relative) -  Movimenta sempre da posição original para outra como se fosse empurando de: EX Left: sai da esquerda para direita 
     - Move um elemento da posição que ele estaria no fluxo normal, deslocando para a parte superior, inferior
     esquerda ou direita de onde ele seria posicionado. Isso não afeta a posição dos outros elementos, pois eles 
     vão se comportar como se o elemento não tivesse sua posição mudada (parágrafo é deslocado para baixo e para 
     a direita de onde estaria o fluxo normal)
 
-Posicionamento Absoluto (position: absolute)
+Posicionamento Absoluto (position: absolute) - Movimenta sempre da posição orginal para outra direção EX: se colocar top: ele vai direto para a posição superior 
     - Posiciona o elemento em relação a seu elemento contêiner (que tem a posição definida), o elemento
     é removido do fluxo normal, o que significa que ele não afeta a posição dos elementos próximos a ele
     Elementos posicionados de forma absoluta, movem -se a medida que o usuário rola a página pra cima ou para 
     baixo. (O título é posicionado na parte superior direita, e os parágrafos começam no topo da tela, como se 
     o título não existisse lá)
+
+Quando acionado o position absolute, se não for relcionado com o position relative ele não vai se importar com a caixa.
 
 Posicionamento fixo (position: fixed)
     - Essa é uma forma de posicionamento absoluto que posiciona um elemento em relação a janela do navegador,
