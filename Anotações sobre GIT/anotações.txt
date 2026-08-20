@@ -50,7 +50,7 @@ git add - adicionar o arquivo selecionado <file> no repositorio
 git add . - adicionar todos os arquivos da pasta no repositorio
 git commit -m '' - comando para salvar as alterações, confirmar alterações.(-m como se fosse deixar um comentário 'aqui fica o comentario')
 git clone <projeto_git> - comando para clonar um projeto que já existe no git hub // se utilizar a copia do projeto com espaço e ponto, só trás apenas o conteudo sem o diretorio
-caso contrario tra tudo 
+caso contrario tras tudo 
 git push (empurra) - para subir as alterações do meu computador para o github
 git pull (puxa) - trazer as alterações do github para o meu computador
 git branch <nome da branch> - para criar uma branch
