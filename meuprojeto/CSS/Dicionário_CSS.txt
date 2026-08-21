@@ -273,7 +273,7 @@ contém esses elementos é chamado de elemento contêiner ou pai.
 
 Elementos flutuantes (float: right/ left)
     -Faz o elemento flutuar, permite remover esse elemento do fluxo normal e posicioná-lo mais a direita ou à esquerda
-    de uma caixa contêiner
+    de uma caixa contêiner (quando for definir os elementos flutuantes, definir também a altura e a largura dos tais)
 
 EX: Uma div com logo do lado esquerdo e um menu do lado direito -  o menu é removido do fluxo normal e passa a flutuar 
 a direita, ficando mais a direita dentro do contêiner ou elemento pai.
