@@ -241,12 +241,6 @@ Deslocamento de caixa
 
 -----------------------------------------------------------------------------------------------------------------
 
-Elementos flutuantes
-    - Fazer um elemento flutuar, permite remover esse elemento do fluxo normal e posicioná-lo mais a direita 
-    ou esquerda de uma caixa contêiner
-
---------------------------------------------------------------------------------------------------------------------
-
 Definir max e min de largura e altura 
             min-width: 400px; (Largura Mínima)
             max-width: 600px; (Largura Máxima) 
@@ -264,3 +258,33 @@ scrool: Sempre exibe barras de rolagem
 auto: Adiciona scrool somente se necessário 
 
 overflow-x: ;/*definir qual o tipo na Horizontal*/
+--------------------------------------------------------------------------------------------------------------------------
+
+ELEMENTOS FLUTUANTES 
+    - Fazer um elemento flutuar, permite remover esse elemento do fluxo normal e posicioná-lo mais a direita 
+    ou esquerda de uma caixa contêiner
+
+OBS: Se um elemento de nível de bloco estiver dentro de outro elemento de nível de bloco, essa caixa é conhecida como 
+elemento contêiner ou pai.
+
+É normal agrupar vários elementos, dentro de um elemento <div>(ou outro nível de bloco) esse elemento <div> que 
+contém esses elementos é chamado de elemento contêiner ou pai.
+---------------------------------------------------------------------------------------------------------------------------
+
+Elementos flutuantes (float: right/ left)
+    -Faz o elemento flutuar, permite remover esse elemento do fluxo normal e posicioná-lo mais a direita ou à esquerda
+    de uma caixa contêiner
+
+EX: Uma div com logo do lado esquerdo e um menu do lado direito -  o menu é removido do fluxo normal e passa a flutuar 
+a direita, ficando mais a direita dentro do contêiner ou elemento pai.
+EX: Uma div com imagem a esquerda, paragrafo no meio, paragravo a baixo e um quadro vazio a esquerda - já aqui imagem flutuou
+a esquerda, permitindo que os parágrafos de textos, flutuam ao seu redor 
+
+ - Onde iremos utilizar elementos flutuantes?
+    
+    Criação de layouts dos sites = Muitos layouts posicionam caixas lado a lado e voce pode atingi esse objetivo, utilizando elementos flutuantes
+
+ - Existem outras maneiras? 
+
+    Flexbox e Grid - Normalmente utilizamos o grid para criar a estrutura do nosso site ou sistema e o flexbox para organizar os conteúdos e criar 
+    os componentes 
