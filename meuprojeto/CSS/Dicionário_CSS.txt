@@ -293,3 +293,5 @@ a esquerda, permitindo que os parágrafos de textos, flutuam ao seu redor
 
 CLEAR - Comando que "anula" o fluxo flutuante, o conteudo para de ficar flutuando em volta dos outros conteudos
 (não fica em volta das imagens)
+
+Pode ser usado para lados left e right ou até both que seria ambos os lados
