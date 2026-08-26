@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear</title>
+    <style>
+
+#principal{
+    width: 920px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: orange;
+
+}
+
+#principal::after{
+ content: "teste";
+}
+
+
+ .noticia{
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;    
+}
+
+#rodape{
+    width: 920px;
+    margin: 0 auto;
+    background-color: gray;
+    color: black;
+}
+
+.item{
+    border: 1px solid gray;
+    padding: 0.5em;
+    background-color: white;
+   
+}
+
+.limpar{
+    clear: both;
+}
+    </style>
+
+
+</head>
+<body>
+
+    <div id="principal">
+  <!--     
+       <img class="item" width="300px" style="float: left;" src="../CSS/img/celular1.png" alt="">
+       <img class="item" width="200px" style="float: right;" src="../CSS/img/celular2.png" alt="">
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Repellat, id modi? Qui temporibus amet repudiandae eligendi 
+        reiciendis placeat ad ipsam, quasi laborum illo, quos corporis 
+        culpa aliquid aut, nisi cumque?
+       </p>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Repellat, id modi? Qui temporibus amet repudiandae eligendi 
+        reiciendis placeat ad ipsam, quasi laborum illo, quos corporis 
+        culpa aliquid aut, nisi cumque?
+       </p>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Repellat, id modi? Qui temporibus amet repudiandae eligendi 
+        reiciendis placeat ad ipsam, quasi laborum illo, quos corporis 
+        culpa aliquid aut, nisi cumque?
+       </p>
+
+       <p class="limpar">
+       
+       -->     
+        
+       
+        
+        
+        <div class="noticia">
+            <h2>Lorem, ipsum dolor sit </h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Culpa accusantium 
+                ipsum accusamus reiciendis ipsa ducimus, 
+                magnam mollitia, quam architecto possimus
+                 aliquid natus praesentium odio facilis 
+                 nihil doloremque laudantium consequatur 
+                 laborum!
+            </p>
+         </div>
+
+        <div class="noticia">
+            <h2>Lorem, ipsum dolor sit </h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Culpa accusantium 
+                ipsum accusamus reiciendis ipsa ducimus, 
+                magnam mollitia, quam architecto possimus
+                 aliquid natus praesentium odio facilis 
+                 nihil doloremque laudantium consequatur 
+                 laborum!
+        </p>
+        </div>
+
+        <div class="noticia">
+            <h2>Lorem, ipsum dolor sit </h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Culpa accusantium 
+                ipsum accusamus reiciendis ipsa ducimus, 
+                magnam mollitia, quam architecto possimus
+                 aliquid natus praesentium odio facilis 
+                 nihil doloremque laudantium consequatur 
+                 laborum!
+            </p>
+        </div>
+
+        <div class="limpar"></div>
+    </div>
+
+    <div id="rodape">
+        <h3>Todos os direitos reservados</h3>
+    </div>
+
+    
+</body>
+</html>

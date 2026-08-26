@@ -288,3 +288,8 @@ a esquerda, permitindo que os parágrafos de textos, flutuam ao seu redor
 
     Flexbox e Grid - Normalmente utilizamos o grid para criar a estrutura do nosso site ou sistema e o flexbox para organizar os conteúdos e criar 
     os componentes 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+CLEAR - Comando que "anula" o fluxo flutuante, o conteudo para de ficar flutuando em volta dos outros conteudos
+(não fica em volta das imagens)
