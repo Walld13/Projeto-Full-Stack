@@ -58,7 +58,7 @@ git branch - verficaras branches criadas
 git checkout <nome da branch> - trocar de branch
 git branch -d <nome da branch> - para trocar e criar uma branch
 git merge - Mesclar as branches : para usar corretamente vá na branch principal e ai voce trás os recurcos da  branch que voce ta usando
-
+git commit --amend -m "Novo título do commit" - para renomear o commit (deve ser usado antes de ter dado push)
 
 
 
