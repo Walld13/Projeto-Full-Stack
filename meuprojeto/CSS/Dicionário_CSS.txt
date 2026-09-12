@@ -220,7 +220,7 @@ Posicionamento Absoluto (position: absolute) - Movimenta sempre da posição org
     baixo. (O título é posicionado na parte superior direita, e os parágrafos começam no topo da tela, como se 
     o título não existisse lá)
 
-Quando acionado o position absolute, se não for relcionado com o position relative ele não vai se importar com a caixa.
+Quando acionado o position absolute, se não for relcionado com o position relative (alinhado com o elemento pai) ele não vai se importar com a caixa.
 
 Posicionamento fixo (position: fixed)
     - Essa é uma forma de posicionamento absoluto que posiciona um elemento em relação a janela do navegador,
@@ -295,3 +295,6 @@ CLEAR - Comando que "anula" o fluxo flutuante, o conteudo para de ficar flutuand
 (não fica em volta das imagens)
 
 Pode ser usado para lados left e right ou até both que seria ambos os lados
+
+----------------------------------------------------------------------------------------------------------------------------
+Letter-spacing = controla o espaço entre as letras dentro de um texto
