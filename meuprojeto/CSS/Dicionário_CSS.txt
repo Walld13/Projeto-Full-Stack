@@ -298,3 +298,15 @@ Pode ser usado para lados left e right ou até both que seria ambos os lados
 
 ----------------------------------------------------------------------------------------------------------------------------
 Letter-spacing = controla o espaço entre as letras dentro de um texto
+
+----------------------------------------------------------------------------------------------------------------------------
+NOVAS TAGS
+
+<header> = Cabeçalho
+<nav> = Navegação (Geralmente vinculado a busca ou links)
+<main> = Conteúdo principal
+<footer> = rodapé
+<article> = Indica um artico (artigo, noticia, postagens, conteudo unico que pode ser compartilhado)
+<section> = uma area, uma parte do seu site 
+<time> = usado para dar sentido a uma data para leitura de tela 
+<aside> = area complementar ao conteudo principal (area lateral para complemento)
