@@ -310,3 +310,35 @@ NOVAS TAGS
 <section> = uma area, uma parte do seu site 
 <time> = usado para dar sentido a uma data para leitura de tela 
 <aside> = area complementar ao conteudo principal (area lateral para complemento)
+
+----------------------------------------------------------------------------------------------------------------------------
+Introdução ao Flexbox e Grid
+Grid = Usado para dar estrutura ao site/sistema 
+Flexbox = Usado para organizar itens mais internos (dentro do grid)
+
+Alinhamentos de flexbox e grid
+main axis = eixo de alinhamento horizontal
+cross axis = eixo de alinhamento vertical que cruza o eixo horizontal
+
+flexdirection = Usado para definir qual o fluxo de exibição dentro de um conteiner (caixa)
+flexdirection: row = Organizar os conteudos em linha um ao lado do outro da esquerda para direita do primeiro ao ultimo conteudo
+flexdirection: row-reverse = Organizar os conteudos em linha um ao lado do outro da direita para a esquerda do ultimo ao primeiro conteudo
+flexdirection: column = Organizar conteudo em coluna um abaixo do outro de cima para baixo, do primeiro ao ultimo conteudo
+flexdirection: column-reverse = Organizar conteudo em coluna um abaixo do outro de baixo para cima do ultimo ao primeiro conteudo
+row = utliza a logica em que o alinhamento aplicado segue a direção da esquerda pra direita com o main axis e de cima pra baixo com o cross axis
+column = utliza a logica em que o alinhamento aplicado segue a direção de cima pra baixo com o main axis e da esquerda pra direita com o cross axis
+
+flexwrap = Embrulhar/Empacotar
+flexwrap: nowrap = ele não tenta "empacotar" os conteudos dentro do conteiner
+flexwrap: wrap = ele empacota os conteudos dentro do conteudo
+flexwrap: wrapreverse = ele empacota os conteudos dentro do conteudo (mas inverte a ordem dos conteudos)
+
+flex-flow = é a junção do flexdirection e flexwrap (aqui é possivel definir a direção e se sera empacotado ou não)
+
+justify content (permite aplicar alinhamentos no eixo main axis)
+flexstart = alinha os elementos no inicio do conteiner (alinhados a esquerda)
+flexend = alinha os conteudos no final do conteiner (alinhados a direita)
+center = alinha os conteudos centralizados
+space between = alinha os conteudos com um espaçamento entre eles (o primeiro e o ultimo conteudo ficam fixos no canto, mas o espaçamento entre eles dentreo do conteiner é ajustado)
+space around = alinha os conteudos com um espaço ao redor, ele adiciona um pequeno espaço no primeiro conteudo e no ultimo, além disso distribuir os espações restantes no meio do conteiner
+space evenly = alinha os conteudos com espaçamento uniforme entre eles
