@@ -320,6 +320,7 @@ Alinhamentos de flexbox e grid
 main axis = eixo de alinhamento horizontal
 cross axis = eixo de alinhamento vertical que cruza o eixo horizontal
 
+DIREÇÂO DOS CONTEUDOS
 flexdirection = Usado para definir qual o fluxo de exibição dentro de um conteiner (caixa)
 flexdirection: row = Organizar os conteudos em linha um ao lado do outro da esquerda para direita do primeiro ao ultimo conteudo
 flexdirection: row-reverse = Organizar os conteudos em linha um ao lado do outro da direita para a esquerda do ultimo ao primeiro conteudo
@@ -328,13 +329,16 @@ flexdirection: column-reverse = Organizar conteudo em coluna um abaixo do outro 
 row = utliza a logica em que o alinhamento aplicado segue a direção da esquerda pra direita com o main axis e de cima pra baixo com o cross axis
 column = utliza a logica em que o alinhamento aplicado segue a direção de cima pra baixo com o main axis e da esquerda pra direita com o cross axis
 
+DENTRO OU FORA DO CONTEINER
 flexwrap = Embrulhar/Empacotar
 flexwrap: nowrap = ele não tenta "empacotar" os conteudos dentro do conteiner
 flexwrap: wrap = ele empacota os conteudos dentro do conteudo
 flexwrap: wrapreverse = ele empacota os conteudos dentro do conteudo (mas inverte a ordem dos conteudos)
 
+PARA DEFINIR AS DUAS FUNÇÕES
 flex-flow = é a junção do flexdirection e flexwrap (aqui é possivel definir a direção e se sera empacotado ou não)
 
+ALINHA OS ITENS NO EIXO MAIN AXIS - HORIZONTAL (DEPENDE DA FLEXDIRECTION)
 justify content (permite aplicar alinhamentos no eixo main axis)
 flexstart = alinha os elementos no inicio do conteiner (alinhados a esquerda)
 flexend = alinha os conteudos no final do conteiner (alinhados a direita)
@@ -342,3 +346,43 @@ center = alinha os conteudos centralizados
 space between = alinha os conteudos com um espaçamento entre eles (o primeiro e o ultimo conteudo ficam fixos no canto, mas o espaçamento entre eles dentreo do conteiner é ajustado)
 space around = alinha os conteudos com um espaço ao redor, ele adiciona um pequeno espaço no primeiro conteudo e no ultimo, além disso distribuir os espações restantes no meio do conteiner
 space evenly = alinha os conteudos com espaçamento uniforme entre eles
+
+ALINHA OS ITENS NO EIXO CROS AXIS - VERTICAL (DEPENDE DA FLEXDIRECTION)
+align items = (permite aplicar alinhamentos no eixo cross axis)
+flexstart = alinha os elementos na parte superior ou esquerda (depende do flexdirection)
+flexend = alinha os elementos na parte inferior ou direita (depende do flexdirection)
+center = alinha os elementos centralizados
+stretch = estica os elementos para que preencham todo o espaço do conteiner
+baseline = não leva em consideração o tamanho dos itens, leva em consideração o texto, se alinha conforme o texto
+
+AJUSTE FINO (ALINHA OS ITENS NO CROS AXIS MAS APENAS QUANDO USADO O fLEXWRAP)
+align content = permite alinhar os elementos em situações especificas (agrupa todos os items, apartir de um flexwrap no cross axis)
+flexstart = alinha os elementos no inicio do conteiner (alinhados a esquerda)
+flexend = alinha os conteudos no final do conteiner (alinhados a direita)
+center = alinha os conteudos centralizados
+space between = alinha os conteudos com um espaçamento entre eles (o primeiro e o ultimo conteudo ficam fixos no canto, mas o espaçamento entre eles dentreo do conteiner é ajustado)
+space around = alinha os conteudos com um espaço ao redor, ele adiciona um pequeno espaço no primeiro conteudo e no ultimo, além disso distribuir os espações restantes no meio do conteiner
+space evenly = alinha os conteudos com espaçamento uniforme entre eles
+
+ALINHA APENAS UM ITEM ESPECIFICO DENTRO DO CONTEINER
+align self = permite alinhar um elemento específico (o propio Item)
+
+DEFINE O TAMANHO DO ITEM
+flexbasis = Permite definir a largura de um item
+
+DEFINE O CRESCIMENTO DO ITEM DENTRO DO CONTEINER (quanto mais o numero, maior o item)
+flexgrow = controla o crescimento do intem dentro do conteiner
+flexgrow: 1; = ele ocupa todo o preenchimento do espaço do conteiner 
+flexgrow: 2; = segue a largura proporcional de "dobro" do 1
+
+DEFINE O ENCOLHIMENTO DO ITEM DENTRO DO CONTEINER (quanto menor o numero menor o encolhimento do item)
+flexshrink = controla o encolhimento do item, propriedade contraria do flexgrow
+flexshrink: 1; = ele ocupa o preenchimento do conteiner sendo o dobro de 1 (lógica inversa)
+flexshrink: 2; = ele ocupa o espaço menor doque 1
+
+ flex = DEFINE AS 3 PROPRIEDADES (flexgrow, flexshrink e flexbasis) (crescimento, encolhimento e largura do item)
+
+DEFINE QUAL VAI SER A ORDEM DE EXIBIÇÃO DO ITEM  (DO MENOR PARA O MAIOR) 
+Order = define a ordem de exibição do item, por padrão ele usa "0"
+order: -1; item fica na frente dos demais, seja com direction row ou column
+order: 0; padrão se não definido nada 
