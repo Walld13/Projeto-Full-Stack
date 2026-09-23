@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav{
+    flex-grow: 1;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+ul a:link,  ul a:visited{
+    padding: 10px;
+    text-decoration: none;
+    color: #484848;
+}
+ul a:hover{
+    color: #0b5cff;
+}
+
+.botao{
+    text-decoration: none;
+    color: #0B5CFF;
+    border: 2px solid #0B5CFF;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+
+.botao:hover{
+    background-color: #b4cdfe;
+    color: white;
+
+}
+
+.botao.destaque{
+    background-color: #0B5CFF;
+    color: white;
+}
+
+.botao.destaque:hover{
+    background-color: #2d73ff;
+}
