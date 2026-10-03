@@ -386,3 +386,9 @@ DEFINE QUAL VAI SER A ORDEM DE EXIBIÇÃO DO ITEM  (DO MENOR PARA O MAIOR)
 Order = define a ordem de exibição do item, por padrão ele usa "0"
 order: -1; item fica na frente dos demais, seja com direction row ou column
 order: 0; padrão se não definido nada 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+GRID: Colunas 
+grid template column = Deifine quantidade de colunas e o tamanho das colunas(pode ser definido o tamanho exato em px ou %de espaço da tela)
+grid template column: repeat(numero de colunas, tamanho da largura da coluna)
